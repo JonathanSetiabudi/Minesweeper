@@ -1,0 +1,17 @@
+html, body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#defaultCanvas0 {
+    margin: 2em auto;
+}
+
+canvas {
+    display: block;
+}
+
+.main {
+    text-align: center;
+}
