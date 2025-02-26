@@ -69,15 +69,15 @@ function setup() {
     createCanvas(screenWidth + 3, screenWidth + 50);
     //code for the easy difficulty button
     easybutton = createButton('Easy');
-    easybutton.position(screenWidth / 3 + 15, screenWidth + 150);
+    easybutton.position(screenWidth / 3 + 15, screenWidth + 250);
     easybutton.mousePressed(setEasy);
     //code for the normal difficulty button
     normalbutton = createButton('Normal');
-    normalbutton.position(2*screenWidth / 3 + 15, screenWidth + 150);
+    normalbutton.position(2*screenWidth / 3 + 15, screenWidth + 250);
     normalbutton.mousePressed(setNormal);
     //code for the hard difficulty button
     hardbutton = createButton('Hard');
-    hardbutton.position(screenWidth + 15, screenWidth + 150);
+    hardbutton.position(screenWidth + 15, screenWidth + 250);
     hardbutton.mousePressed(setHard);
 
     //Use math to find out how many columns and rows we need and then floor it so we don't have say 20.1 rows
